@@ -1,0 +1,341 @@
+* {
+	box-sizing: border-box; 
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*CAROUSEL*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  	width: 100%;
+  	height: 600px;
+  	position: relative;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.carousel-caption h1 {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 70px;
+	color: black;
+}
+
+.carousel-caption h3 {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.navbar-brand {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 34px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+/*NAVIGATION*/
+#mylogo a {
+	color: #DB7093;
+	text-decoration: none;
+}
+
+#mylogo a:hover {
+	color: black;
+}
+
+nav ul {
+	padding-right: 100px;
+	font-family: 'Neucha', cursive;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 15px;
+}
+
+#nav-list li a:hover {
+	color: #DB7093;
+}
+
+/*FEATURED POST*/
+.featured {
+	width: 90%;
+	margin: 50px auto;
+}
+
+.featured .snippets {
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px;
+	color: #948D8C;
+}
+
+.featured .actual-post {
+	padding: 20px 0;
+}
+
+.actual-post h2 {
+	font-family: 'Neucha', cursive;
+	padding-bottom: 0;
+}
+
+.featured .date {
+	padding-bottom: 15px;
+	display: block;
+	font-family: 'Neucha', cursive;
+	font-size: 13px;
+	color: #948D8C;
+}
+
+.featured .bigphoto {
+	background: url("uluwatu.jpg") center/cover no-repeat;
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.featured .kubu {
+	background: url("lazymonkey.jpg") center/cover no-repeat;
+	height: 400px;
+	width: 100%;
+	margin: 50px auto 0;
+}
+
+.featured .lazymonkey {
+	background: url("jogja.jpg") center/cover no-repeat;
+	height: 400px;
+	width: 100%;
+	margin: 50px auto 0;
+}
+
+.featured .content {
+	padding-top: 50px;
+}
+
+.featured p {
+	font-family: 'Droid Serif', serif;
+}
+
+.featured button {
+	padding: 5px;
+	margin: 20px;
+	font-family: 'Neucha', cursive;
+	font-size: 17px;
+	border-radius: 8px;
+}
+
+.featured button:hover {
+	background: #FFF;
+	border: 2px solid #DB7093;
+	border-radius: 8px;
+}
+
+.featured .react {
+	display: inline;
+	padding: 30px 30px;
+}
+
+.featured .react a {
+	color: #948D8C;
+	padding: 3px;
+}
+
+.featured .react a:hover {
+	color: #DB7093;
+}
+
+/*PAGINATION*/
+
+.pagination li {
+	list-style: none;
+	display: inline;
+	padding: 5px;
+	border: none;
+}
+
+.featured .pagination a {
+  	color: #DB7093;
+}
+
+.featured .pagination a:hover {
+  	color: black;
+}
+
+/*CATEGORIES AND ARCHIVES*/
+
+.featured .popular,
+.featured .arch {
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 20px;
+	color: #948D8C;
+}
+
+.featured .list-popular,
+.featured .archives {
+	padding-left: 8px;
+}
+
+.featured .list-popular li {
+	list-style: none;
+	font-family: 'Neucha', serif;
+	font-size: 20px;
+	padding: 20px 2px;
+	text-align: center;
+	width: 90%;
+}
+
+.featured .archives li {
+	list-style: none;
+	/*font-family: 'Droid Serif', serif;*/
+	/*border-bottom: 1px solid #948D8C;*/
+	text-align: center;
+	font-family: 'Neucha', serif;
+	font-size: 16px;
+	padding: 10px 2px;
+	width: 90%;
+}
+
+.featured .list-popular a,
+.featured .archives a {
+	text-decoration: none;
+	color: black;
+}
+
+.featured .list-popular a:hover,
+.featured .archives a:hover {
+	color: #DB7093;
+}
+
+.featured .list-popular i {
+	color: #DB7093;
+}
+
+/*.featured .list-popular li:last-child,
+.featured .archives li:last-child {
+	border-bottom: none;
+}*/
+
+.right .arch-text {
+	padding-left: 0;
+}
+
+/*FOOTER*/
+footer {
+	text-align: center;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/0f/d8/e6/0fd8e6dbca4755dd46620a9312970f23.jpg");
+	height: 100%;
+	padding: 30px;
+}
+
+footer a {
+	padding: 0 5px;
+	color: #DB7093
+}
+
+footer a:hover {
+	color: #000;
+}
+
+footer .branding {
+	padding-top: 20px;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 20px;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+  		height: 300px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 40px;
+	}
+
+	.carousel-caption h3 {
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 0;
+	}
+
+	.navbar-brand {
+		font-size: 30px;
+		padding-left: 25px;
+		padding-top: 18px;
+	}
+
+	nav ul {
+		font-size: 16px;
+	}
+
+	.featured {
+		width: 100%;
+	}
+
+	.featured .list-popular li {
+		padding: 10px 2px;
+	}
+
+	.categories {
+		height: 125px;
+		width: 100%;
+		padding: 5px;
+	}
+
+	.describe .title {
+		font-size: 18px;
+	}
+
+	.describe .yup {
+		font-size: 12px;
+	}
+
+	.search .hello {
+		width: 80%;
+	}
+
+}
+
+@media screen and (max-width: 865px) {
+
+	nav li {
+		padding: 5px;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	.featured {
+		width: 90%;
+	}
+
+}
+

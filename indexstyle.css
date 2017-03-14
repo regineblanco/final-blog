@@ -1,0 +1,476 @@
+* {
+	box-sizing: border-box; 
+}
+
+.container-fluid {
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+/*CAROUSEL*/
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  	width: 100%;
+  	height: 600px;
+  	position: relative;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.carousel-caption h1 {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 70px;
+	color: black;
+}
+
+.carousel-caption h3 {
+	font-family: 'Arsenal', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: black;
+}
+
+.navbar-brand {
+	font-family: 'Grand Hotel', cursive;
+	font-size: 34px;
+	padding-left: 100px;
+	padding-top: 30px;
+}
+
+#mylogo {
+	color: #DB7093;
+}
+
+#mylogo:hover {
+	color: black;
+}
+
+/*NAVIGATION*/
+#mylogo a {
+	color: #DB7093;
+}
+
+#mylogo a:hover {
+	color: black;
+}
+
+nav ul {
+	padding-right: 100px;
+	font-family: 'Neucha', cursive;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+
+nav li {
+	display: inline-block;
+	padding: 15px;
+}
+
+#nav-list li a:hover {
+	color: #DB7093;
+	text-decoration: none;
+}
+
+/*FEATURED POST*/
+.featured {
+	width: 70%;
+	margin: 50px auto;
+	border: 2px solid #DB7093; /*#948D8C*/
+}
+
+.featured .snippets {
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px;
+	color: #948D8C;
+}
+
+.featured .actual-post {
+	padding: 20px 0;
+}
+
+.actual-post h2 {
+	font-family: 'Neucha', cursive;
+	padding-bottom: 0;
+}
+
+.featured .date {
+	padding-bottom: 15px;
+	display: block;
+	font-family: 'Neucha', cursive;
+	font-size: 13px;
+	color: #948D8C;
+}
+
+.featured p {
+	font-family: 'Droid Serif', serif;
+}
+
+.featured .bigphoto {
+	background: url("explore6.jpg") center/cover no-repeat;
+	height: 400px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.featured button {
+	padding: 5px;
+	margin: 20px;
+	font-family: 'Neucha', cursive;
+	font-size: 17px;
+	border-radius: 8px;
+}
+
+.featured button:hover {
+	background: #FFF;
+	border: 2px solid #DB7093;
+	border-radius: 8px;
+}
+
+.featured .react {
+	display: inline;
+	padding: 30px 30px;
+}
+
+.featured .react a {
+	color: #948D8C;
+	padding: 3px;
+}
+
+.featured .react a:hover {
+	color: #DB7093;
+}
+
+/*POPULAR POSTS*/
+
+.featured .popular {
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px;
+	color: #948D8C;
+}
+
+.featured .list-popular {
+	padding: 8px;
+}
+
+.featured .list-popular li {
+	list-style: none;
+	font-family: 'Neucha', cursive;
+	font-size: 18px;
+	border-bottom: 1px solid #DB7093; /*#948D8C*/
+	padding: 20px 2px;
+}
+
+.featured .list-popular li:last-child {
+	border-bottom: none;
+}
+
+.featured .list-popular a {
+	text-decoration: none;
+	color: black;
+}
+
+.featured .list-popular a:hover {
+	color: #DB7093;
+}
+
+/*CATEGORIES*/
+.images-container {
+	width: 70%;
+	margin: 50px auto;
+}
+
+.images-container > .row > div {
+	padding: 0;
+}
+
+.categories {
+	height: 260px;
+	width: 100%;
+	/*padding: 5px;*/
+}
+
+.describe { /*jQuery function*/
+	visibility: hidden;
+	color: white;
+	font-family: 'Cedarville Cursive', cursive;
+	padding: 15px;
+	padding-top: 20%;
+} 
+
+.describe .title {
+	font-size: 40px;
+}
+
+.describe .yup {
+	font-size: 20px;
+}
+
+a:hover {
+	text-decoration: none;
+	text-align: center;
+}
+
+#write {
+	background: url("typewriter.jpg") center/cover no-repeat;
+}
+
+#write:hover {
+	background: #4d1a00;
+}
+
+#surf {
+	background: url("surf.jpg") center/cover no-repeat;
+}
+
+#surf:hover {
+	background: #3333ff;
+}
+
+#explore {
+	background: url("explore3.jpg") center/cover no-repeat;
+}
+
+#explore:hover {
+	background: #333300;
+}
+
+#watch {
+	background: url("music.jpg") center/cover no-repeat;
+}
+
+#watch:hover {
+	background: #1a1a1a;
+}
+
+#code {
+	background: url("code.jpg") center/cover no-repeat;
+}
+
+#code:hover {
+	background: #e6e6e6;
+}
+
+#misc {
+	background: url("notmybaby.jpg") center/cover no-repeat;
+}
+
+#misc:hover {
+	background: #1aa3ff;
+}
+
+/*SEARCH*/
+.search {
+	width: 50%;
+	margin: 30px auto;
+	text-align: center;
+}
+
+.search button {
+	display: inline;
+}
+
+.search i {
+	border-radius: 6px;
+}
+
+.search .hello {
+	width: 50%;
+	font-family: 'Droid Serif', serif;
+	text-align: center;
+}
+
+form {
+	display: inline;
+}
+
+/*ABOUT*/
+.about {
+	width: 70%;
+	margin: 50px auto;
+	border: 2px solid #DB7093; /*#948D8C*/
+}
+
+.fullprofile {
+	width: 50%;
+}
+
+.about .me {
+	font-family: 'Droid Serif', serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	padding: 10px;
+	color: #948D8C;
+}
+
+.about .profile {
+	padding: 30px 50px;
+	margin: 0 auto;
+}
+
+.about h2 {
+	font-family: 'Cedarville Cursive', cursive;
+	font-size: 50px;
+	color: #DB7093;
+}
+
+.about p {
+	font-family: 'Droid Serif', serif;
+	line-height: 30px;
+}
+
+.about a {
+	color: #DB7093;
+}
+
+.about a:hover {
+	text-decoration: underline;
+}
+
+/*ABOUT PHOTO*/
+.about img {
+	width: 90%;
+	margin: 0 auto;
+	border-radius: 50%;
+	padding: 50px 0;
+}
+
+/*FOOTER*/
+footer {
+	text-align: center;
+	background: url("https://s-media-cache-ak0.pinimg.com/originals/0f/d8/e6/0fd8e6dbca4755dd46620a9312970f23.jpg");
+	height: 100%;
+	padding: 30px;
+}
+
+footer a {
+	padding: 0 5px;
+	color: #DB7093
+}
+
+footer a:hover {
+	color: #000;
+}
+
+footer .branding {
+	padding-top: 20px;
+	font-family: 'Grand Hotel', cursive;
+	font-size: 20px;
+}
+
+.fixed {
+	position: fixed; 
+	top: 0; 
+	height: 70px; 
+	z-index: 1;
+}
+
+/*RESPONSIVE*/
+@media screen and (max-width: 768px) {
+
+	.carousel-inner > .item > img,
+	.carousel-inner > .item > a > img {
+  		height: 300px;
+	}
+
+	.carousel-caption h1 {
+		font-size: 40px;
+	}
+
+	.carousel-caption h3 {
+		font-size: 15px;
+		font-weight: bold;
+		margin-top: 0;
+	}
+
+	.navbar-brand {
+		font-size: 30px;
+		padding-left: 25px;
+		padding-top: 18px;
+	}
+
+	nav ul {
+		font-size: 16px;
+	}
+
+	#nav-list li a:hover {
+		text-align: left;
+	}
+	
+	.featured {
+		width: 100%;
+	}
+
+	.featured .list-popular li {
+		padding: 10px 2px;
+	}
+
+	.categories {
+		height: 125px;
+		width: 100%;
+		padding: 5px;
+	}
+
+	.describe .title {
+		font-size: 18px;
+	}
+
+	.describe .yup {
+		font-size: 12px;
+	}
+
+	.search .hello {
+		width: 70%;
+		font-size: 12px;
+	}
+
+	.about {
+		width: 90%;
+	}
+
+	.fullprofile {
+		width: 100%;
+	}
+
+	.about .profile {
+		padding: 10px 30px;
+	}
+
+	.about h2 {
+		font-size: 30px;
+	}
+
+	.about p {
+		line-height: 20px;
+	}
+
+}
+
+@media screen and (max-width: 865px) {
+
+	nav li {
+		padding: 5px;
+	}
+
+}
+
+@media screen and (max-width: 1000px) {
+
+	.featured {
+		width: 90%;
+	}
+
+}
+
